@@ -181,6 +181,8 @@
      color:#444
 
  }
- @media (min-width: 767px) {
- 
+ @media (max-width: 767px)  {
+     .icon i{
+         display:none;
+     }
     }
