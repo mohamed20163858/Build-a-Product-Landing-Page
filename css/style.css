@@ -4,8 +4,54 @@
     top: 0;
     display: flex;
     justify-content: space-around;
+    width: 100%;
     
  }
+ header img{
+     max-width:300px;
+     margin:30px;
+ }
+ header ul{
+     list-style: none; 
+     display: flex;
+     flex-wrap: nowrap; 
+     margin:30px;
+ }
+ header ul li a{
+    text-decoration:none;
+    color:black;
+    padding-left:100px;
+
+ }
+ body{
+    font-family: 'Lato', sans-serif;
+    background-color:#EEEEEE;
+ }
+ section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height:200px;
+    margin-top: 60px;
+ }
+ section #email{
+     margin-bottom: 20px;
+     width:20vw;
+ }
+ section p{
+     font-size: 30px;
+     font-weight: bold;
+ }
+ section #submit
+ {
+     background-color:#F1C40F;
+     font-size: 20px;
+     font-weight: bold;
+     border:none;
+ }
+ 
  @media (min-width: 767px) {
  
     }
