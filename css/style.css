@@ -81,6 +81,25 @@
  .fa{
      width:60px;
  }
+
+ #how-it-works{
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+ }
+
+ #pricing {
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     justify-content: center;
+     margin-top: 50px;
+ }
+
+ .price-box{
+    margin-left: 40px;
+    border: solid 2px black;
+ }
  @media (min-width: 767px) {
  
     }
