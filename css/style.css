@@ -27,7 +27,7 @@
     font-family: 'Lato', sans-serif;
     background-color:#EEEEEE;
  }
- section{
+ #form-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,22 +36,31 @@
     height:200px;
     margin-top: 60px;
  }
- section #email{
+ #form-section #email{
      margin-bottom: 20px;
      width:20vw;
  }
- section p{
+ #form-section p{
      font-size: 30px;
      font-weight: bold;
  }
- section #submit
+ #form-section #submit
  {
      background-color:#F1C40F;
      font-size: 20px;
      font-weight: bold;
      border:none;
  }
+  #feature {
+      display: block;
+  }
  
+ #feature div{
+    display: flex;
+ }
+ #icon {
+     color: darkorange;
+ }
  @media (min-width: 767px) {
  
     }
