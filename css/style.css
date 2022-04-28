@@ -71,8 +71,8 @@
      color: darkorange;
  }
  .container {
-     width:70%;
-     margin-left:15%;
+     width:84%;
+     margin-left:8%;
  }
  .text{
      display: flex;
@@ -156,18 +156,29 @@
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
+    margin-bottom:5px;
  }
  footer ul li  {
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 30px;
 
    
+ }
+ footer ul li a{
+     text-decoration: none;
+     color:black;
+     font-size: 18px;
+     font-weight:800;
  }
  span {
      display: flex;
      justify-content: flex-end;
      padding: 5px;
      padding-right: 20px;
+     padding-bottom: 30px;
+     font-size: 18px;
+     font-weight: 600;
+     color:#444
 
  }
  @media (min-width: 767px) {
